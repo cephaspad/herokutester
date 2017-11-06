@@ -1,0 +1,26 @@
+{
+    "name": "Heroku Tester",
+    "description": "This app allow testing on Heroku",
+    "keywords": [
+      ".NET Core",
+      ".NET Core MVC"
+    ],
+    "website": "https://cp-herokutester.herokuapp.com/",
+    "repository": "https://github.com/cephaspad/herokutester",
+    "success_url": "/",
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "Free"
+      }
+    },
+    "addons": [
+        "heroku-redis:hobby-dev",
+        "heroku-postgresql:hobby-dev"
+    ],
+    "buildpacks": [
+      {
+        "url": "https://github.com/cephaspad/dotnetcore-buildpack"
+      }
+    ]
+  }
