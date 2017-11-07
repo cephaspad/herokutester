@@ -1,1 +1,1 @@
-web: dotnet HerokuTester.dll
+web: cd $HOME/heroku_output && dotnet HerokuTester.dll
