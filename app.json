@@ -15,7 +15,6 @@
       }
     },
     "addons": [
-        "codeship:free",
         "heroku-redis:hobby-dev",
         "heroku-postgresql:hobby-dev"
     ],
